@@ -1,0 +1,67 @@
+remote_theme: pmarsceill/just-the-docs
+title: Dropshipment API
+#description: Dropshipment API Documentation
+
+# Just the docs theme settings
+color_scheme: dropship
+heading_anchors: true
+nav_enabled: false
+#nav_sort: case_insensitive
+#aux_links:
+#  "GitHub": https://github.com/OndrejGrimAlza/dropship-api
+
+# Jekyll settings
+markdown: kramdown
+#highlighter: rouge
+kramdown:
+  toc_levels: 1..2
+  auto_ids: true
+  #input: GFM
+  #hard_wrap: false
+  #syntax_highlighter: rouge
+  #syntax_highlighter_opts:
+  #  block:
+  #    line_numbers: true
+  #    start_line: 1
+
+# Generate table of contents
+#toc:
+#  min_level: 1
+#  max_level: 2
+#  ordered: false
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+mermaid:  
+  version: "9.1.6"
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: false
+  button: false
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+sass:
+  load_paths:
+    - _sass
+
