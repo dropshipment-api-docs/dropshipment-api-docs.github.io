@@ -8,7 +8,7 @@ description: Dropshipment API Documentation
 color_scheme: dropship
 heading_anchors: true
 nav_enabled: true
-baseurl: "/dropship-api-draft"
+baseurl: "/"
 #nav_sort: case_insensitive
 #aux_links:
 #  "GitHub": https://github.com/OndrejGrimAlza/dropship-api
